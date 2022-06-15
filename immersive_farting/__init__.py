@@ -27,7 +27,7 @@ FART_ALARM = None
 
 class FartAlarm():
     INTERVAL_RATE = 2  # Run every INTERVAL_RATE attempts to decrease number of runs for performance gain
-    FART_INTERVAL_PER_SIM = 75 * INTERVAL_RATE
+    FART_INTERVAL_PER_SIM = 76 * INTERVAL_RATE
     FART_CHANCE_BASE = 100
 
     ALLOWED_CLOCK_SPEEDS = {
@@ -37,10 +37,7 @@ class FartAlarm():
     }
 
     DISALLOWED_TRAITS = {
-        251970,  # trait_Proper
         218444,  # trait_Humanoid_Robots_MainTrait
-        16858,  # trait_Neat
-        160841,  # trait_LifeSkills_GoodManners
     }
 
     BLADDER_MOTIVE_STATISTIC = 16652  # motive_Bladder
